@@ -54,11 +54,35 @@ console.log(typeof(a[2]));
 // console.log(names.indexOf('Sam',1)); //output:2, starts search from 1st index
 // console.log(names.indexOf('Sam',3)); //output:4, starts search from 3rd index
 
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.indexOf('example')); 
+
 // //lastIndexOf():Does backward search,returns index number of the first matching elemnt
 // var names =['Peter','Harry','Sam','Ryan','Sam'];
 // console.log(names.lastIndexOf('Sam')); 
 // console.log(names.lastIndexOf('Sam',1)); 
 // console.log(names.lastIndexOf('Sam',3));
+ 
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.length);
+// console.log(str.lastIndexOf('example')); 
+
+
+//search():
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.search('see'));
+
+// //toUppercase():       toLowercase():
+//var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+
+
+//startsWith(): endsWith():      ---Returns true or false
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.startsWith('e')); 
+// console.log(str.endsWith('ing'));
 
 
 // //toString(): converts array elemnts to strings
@@ -85,6 +109,9 @@ console.log(typeof(a[2]));
 // console.log(names.includes('Harry')); //output:true
 // console.log(names.includes('James')); //output: false
 
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.includes('example')); //case sensitive function -  Returns true or false
+
 // // //reverse(): Reverses the array; overwrites the original array
 // var names =['Peter','Harry','Sam','Ryan','Sam'];
 // console.log(names.reverse());
@@ -98,7 +125,7 @@ console.log(typeof(a[2]));
 
 // var num =[5,43,9,1,76,10,54];
 // console.log(num.sort());
-// console.log(num.sort((a,b) => a - b ));
+// console.log(num.sort((a,b) => a - b ));  --uses lamda function
 
 
 // //slice():
@@ -106,7 +133,10 @@ console.log(typeof(a[2]));
 // console.log(num.slice(1,4));
 // var names =['Peter','Harry','Sam','Ryan','Sam'];
 // console.log(names.slice(1));
+
+//slice(start,end)
 // console.log(names.slice(1,4));
+
 
 // //splice(): adding or removing array element
 // //Syntax: arrayName.splice(index,no of element to remove,elmt1,elmt2,...)
@@ -115,6 +145,20 @@ console.log(typeof(a[2]));
 // console.log(names);
 // console.log(names.splice(2,1,'James','Sam','Jo'));
 // console.log(names);
+
+//substring(start,end):
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.substring(5,20))
+// console.log(str.slice(5,20)) // substring and slice methods are same 
+
+//  //substr(start,number of characters):   
+// var str= 'This is new example, lets see in this example for clear understanding';
+//  console.log(str.substr(5,20)); // starts from 5th index and displays 20 characters from there
+
+
+//replace(search string,replace string)
+// var str= 'This is new example, lets see in this example for clear understanding';
+// console.log(str.replace('see','saw'));
 
 
 
