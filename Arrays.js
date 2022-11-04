@@ -85,7 +85,7 @@ console.log(typeof(a[2]));
 // console.log(str.endsWith('ing'));
 
 
-// //toString(): converts array elemnts to strings
+//toString(): converts array elemnts to strings
 // var names =['Peter','Harry','Sam','Ryan','Sam'];
 // console.log(names);
 // var b=names.toString();

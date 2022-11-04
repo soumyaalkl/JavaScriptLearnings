@@ -3,11 +3,11 @@
 
 // Primitive Datatypes
 var a= 10, b='hello', c=true,d, e=null;
-console.log('var a, '+a +' is a '+typeof(a));
-console.log('var b, '+b +' is a '+typeof(b));
-console.log('var c, '+c +' is a '+typeof(c));
-console.log('var d, '+d +' is an '+typeof(d));
-console.log('var e, '+e +' is an '+typeof(e));
+// console.log('var a, '+a +' is a '+typeof(a));
+// console.log('var b, '+b +' is a '+typeof(b));
+// console.log('var c, '+c +' is a '+typeof(c));
+// console.log('var d, '+d +' is an '+typeof(d));
+// console.log('var e, '+e +' is an '+typeof(e));
 //console.log('var f '+f +' is a '+typeof(f));
 
 /*
@@ -24,6 +24,12 @@ var a=40,b=50,c=30;
  
 */
 
+console.log(parseInt(c,8));
+
+console.log(isNaN(a)); // returns false
+
+
+console.log(isNaN(b)); // returns true
 
 
 
